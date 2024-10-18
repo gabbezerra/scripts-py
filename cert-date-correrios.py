@@ -13,7 +13,7 @@ def create_servicenow_ticket():
     }
     payload = {
         'title': "Certificado do Barramento Diferente do dos Correios.",
-        'description': f'Verificar troca na doc: https://livelo.atlassian.net/wiki/spaces/IC/blog/2023/09/16/380239954/Import+do+Certificado+Correios+no+Barramento',
+        'description': f'Verificar troca na doc: Import+do+Certificado+Correios+no+Barramento',
         'service': "Backup", 
         'environment': "INFRA", 
         'state': "open", 
