@@ -7,7 +7,7 @@ import requests
 
 def create_servicenow_ticket():
     # Configuração dos parâmetros para o chamado
-    url = 'https://apis.pontoslivelo.com.br/livelo-on-call/incident?source=rundeck&team=cloud_datacenter'
+    url = 'snow-url'
     headers = {
         'Content-Type': 'application/json',
     }
